@@ -10,6 +10,8 @@ export const ProfileSocial = ({user, tag, location, avatar, stats}) => {
     <img
       src={avatar}
       alt="User avatar"
+      width="150"
+      height="150"
       className={css.avatar}
     />
     <p className={css.name}>{user}</p>
