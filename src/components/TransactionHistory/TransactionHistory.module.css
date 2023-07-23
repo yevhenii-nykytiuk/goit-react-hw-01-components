@@ -1,0 +1,23 @@
+.transactionHistory {
+  width: 80%;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableList {
+  color: #ffffff;
+  background-color: rgb(45, 177, 225);
+}
+
+.tableItem {
+  border: 0.5px solid #fff;
+  padding: 30px 0 30px 0;
+  overflow: hidden;
+}
+
+.tableItemTd {
+  border: 1px solid #d2d2d2;
+  padding: 30px 0 30px 0;
+}
