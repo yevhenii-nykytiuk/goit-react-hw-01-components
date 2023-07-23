@@ -7,7 +7,6 @@ function getRandomNexColor () {
   .padStart(6, 0)}`;
 }
 
-
 export const getElementRandomColor = () => {
   return itemStatistics.style.backgroundColor = getRandomNexColor();
 }
