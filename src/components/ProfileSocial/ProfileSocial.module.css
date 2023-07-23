@@ -1,7 +1,18 @@
 .profile {
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.profileCard {
+  width: 23%;
+  padding: 30px 0 30px 0;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+  0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .description {
@@ -11,11 +22,35 @@
 }
 
 .avatar {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+  0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  border-radius: 50%;
   margin: auto;
 }
 
+.name {
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+.tag {
+  color: rgb(168, 167, 167);
+  margin: 10px 0 10px 0;
+}
+
+.location {
+  color: rgb(168, 167, 167);
+}
+
 .stats {
+  margin-top: 25px;
   text-align: center;
+  display: flex;
+}
+
+.label {
+  color: rgb(168, 167, 167);
 }
 
 .statsItem {

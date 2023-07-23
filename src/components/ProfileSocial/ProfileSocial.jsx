@@ -6,6 +6,7 @@ import css from "./ProfileSocial.module.css"
 export const ProfileSocial = ({user, tag, location, avatar, stats}) => {
   return (
     <div className={css.profile}>
+ <article className={css.profileCard}>
   <div className={css.description}>
     <img
       src={avatar}
@@ -33,6 +34,8 @@ export const ProfileSocial = ({user, tag, location, avatar, stats}) => {
       <span className={css.quantity}> {stats.likes} </span>
     </li>
   </ul>
+  </article>
+  
 </div>
   )
 }
